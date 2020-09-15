@@ -11,7 +11,8 @@ new Vue({
 			eventDescription: 'a very fun event'
 		},
 		guestName: [],
-		newNameText: 'initial val',
+		formSubmitClass: "",
+		newNameText: 'initial val'
 	},
 
 		methods: {
@@ -19,7 +20,9 @@ new Vue({
 				if(this.newNameText.length > 0) {
 					console.log(this.newNameText)
 					this.guestName.push(this.newNameText)
-					this.newNameText = ''
+					this.newNameText = '',
+					this.formSubmitClass = "submitted"
+
 				}
 			}
 		}
