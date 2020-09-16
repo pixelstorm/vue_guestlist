@@ -8,6 +8,7 @@ new Vue({
 		event: {
 			eventDate: 'August 14 2000',
 			eventTitle: 'Summer Festival',
+			signUpText: '<em>this is the sign up text</em>',
 			eventDescription: 'a very fun event'
 		},
 		guestName: [],
