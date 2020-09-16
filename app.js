@@ -12,7 +12,12 @@ new Vue({
 		},
 		guestName: [],
 		formSubmitClass: "",
-		newNameText: 'initial val'
+		newNameText: 'initial val',
+		appStyles: {
+			marginTop: '25px',
+			color: 'darkBlue'
+		}
+
 	},
 
 		methods: {
